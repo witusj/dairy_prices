@@ -1,8 +1,6 @@
 library("RCurl")
 library("XML")
 
-setwd("C:/Users/NB/Google Drive/Data Analysis/Dairy")
-
 # Function to grab data from internet site according to given year
 getDairyData <- function(year) {
   
